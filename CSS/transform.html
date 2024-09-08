@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        background-color: burlywood;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 5px 8px black;
+        text-shadow: 1px 1px white;
+        transition: all 5s linear 1s;
+
+    }
+    .container{
+        height: 700px;
+        width: 1500px;
+        justify-content: center;
+        align-content: center;
+    }
+    .box:hover{
+        transform: rotate(360deg);
+        transform: scale(2);
+        transform: skew(35deg);
+        transform: translate(500px,500px);
+
+   
+    }
+ 
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <p >Aman Sareen</p>
+        </div>
+    </div>
+</body>
+</html>

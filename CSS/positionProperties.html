@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: solid black 2px;
+        }
+        img{
+            margin: 4px;
+        }
+        .image1{
+             position: relative;
+            top: 100px;
+            left: 50px; 
+            /* position: absolute;absolute is doing overlapping the imgs */
+            top: 100px;
+        }
+        .container{
+            position: relative;
+            height: 2000px;
+            background-color: burlywood;
+            
+        }
+        .image3{
+            position: fixed;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            <img 
+            src="image1.webp" 
+            alt="poster1"
+            width="150px"
+            height="150px"
+            class="image1">
+
+            <img 
+            src="image2.jpg" 
+            alt="poster2"
+            width="150px"
+            height="150px"
+            class="image4">
+
+            <img 
+            src="image3.webp" 
+            alt="poster3"
+            width="150px"
+            height="150px"
+            class="image3">
+            
+            <img 
+            src="image4.webp" 
+            alt="poster4"
+            width="150px"
+            height="150px"
+            class="image4">
+    </div>
+</body>
+</html>
